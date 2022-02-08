@@ -1,24 +1,24 @@
-# gds-test-task
+# Тестовое задание на позицию front-end разработчик в компании GDS
 
-## Project setup
+## Использованные инструменты:
+ - Основной фреймворк: **Vue.js v.2.6.11**;
+ - Глобальное хранилище: **Vuex v.3.4.0**;
+ - Роутинг: **Vue-router v.3.2.0**;
+ - Препроцессор CSS: **SCSS**;
+ - Сборщик: **Webpack** из пакета Vue.CLI;
+ - Менеджер пакетов: **NPM**;
+ - Доп. плагины:
+  * **normalize.css** для сброса базовых стилей;
+  * **nanoid** для генерации id;
+  * **vuex-persistedstate** для сохранения глобального стейта при обновлении страницы;
+
+### Установка проекта:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск проекта:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
