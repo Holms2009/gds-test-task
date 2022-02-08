@@ -45,6 +45,32 @@ export default {
 </script>
 
 <style lang="scss">
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
 #app {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
